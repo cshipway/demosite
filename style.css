@@ -10,9 +10,10 @@ h1
 
 body
 {
+    color: white;
 	font: 18px Arial, sans-serif;
 	background-image: url(tileBg.png);
-    background-color: rgb(247 247 247);
+    background-color: rgb(16, 16, 16);
     background-size: 200px;
 	animation-name: scrollingBg;
 	animation-duration: 30s;
