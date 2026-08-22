@@ -1,6 +1,17 @@
+@font-face
+{
+  font-family: 'm6x11';
+  src: url('m6x11.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 h1
 {
-	font: 36px Arial, sans-serif;
+	font-family: 'm6x11', sans-serif;
+	font-size: 33px;
+	letter-spacing: 1px;
 }
 
 @keyframes scrollingBg {
@@ -19,6 +30,16 @@ body
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+a
+{
+	color: gray;
+}
+
+a:visited
+{
+	color: gray;
 }
 
 .dynamic, .dynamic-header
