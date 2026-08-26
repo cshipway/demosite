@@ -7,12 +7,35 @@
   font-display: swap;
 }
 
+@keyframes back-and-forth {
+	from { rotate: -1deg; }
+	to { rotate: 1deg; }
+}
+
+h1, h2, h3 {
+	font-family: 'm6x11', sans-serif;
+	letter-spacing: 1px;
+	animation: 3s infinite alternate-reverse back-and-forth;
+	animation-timing-function: ease-in-out;
+	width: fit-content;
+}
+
 h1
 {
-	font-family: 'm6x11', sans-serif;
-	font-size: 33px;
-	letter-spacing: 1px;
-	rotate: -1deg;
+    font-size: 48px;
+    background: white;
+    color: gray;
+    padding: 16px;
+}
+
+h2
+{
+	font-size: 32px;
+}
+
+h3
+{
+	font-size: 24px;
 }
 
 @keyframes scrollingBg {
