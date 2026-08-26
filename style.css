@@ -12,6 +12,7 @@ h1
 	font-family: 'm6x11', sans-serif;
 	font-size: 33px;
 	letter-spacing: 1px;
+	rotate: -1deg;
 }
 
 @keyframes scrollingBg {
@@ -66,4 +67,18 @@ a .dynamic
 {
 	text-decoration: underline;
 	text-decoration-color: white;
+}
+
+.post-container {
+	display: flex;
+  	justify-content: center;
+}
+
+.post {
+	max-width: 720px;
+}
+
+.post img {
+	max-width: 100%;
+	max-height: 480px;
 }
